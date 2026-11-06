@@ -1,0 +1,22 @@
+body{margin:0;background:#FAF8F4}
+html{scroll-behavior:smooth}
+input,button,select,textarea{font:inherit}
+.sg-link{color:inherit;text-decoration:none;border-bottom:1px solid transparent;transition:border-color .2s}
+.sg-link:hover{border-bottom-color:currentColor}
+.sg-btn-light{transition:background .2s,color .2s}
+.sg-btn-light:hover{background:#0C141F;color:#FFFFFF}
+.sg-btn-dark{transition:background .2s}
+.sg-btn-dark:hover{background:#1F63B0}
+.sg-card{transition:border-color .2s}
+.sg-card:hover{border-color:#0C141F}
+.sg-quem{position:relative;overflow:hidden;background:#FAF8F4}
+.sg-quem-photo{position:absolute;top:0;right:0;bottom:0;width:58%;background:#1A1A1C url('/assets/6e2b44ef9ae02b1f836ee503d33ba109.jpg') center 20%/cover no-repeat;-webkit-mask-image:linear-gradient(to right,transparent 0%,rgba(0,0,0,.12) 16%,rgba(0,0,0,.45) 32%,rgba(0,0,0,.85) 50%,#000 64%);mask-image:linear-gradient(to right,transparent 0%,rgba(0,0,0,.12) 16%,rgba(0,0,0,.45) 32%,rgba(0,0,0,.85) 50%,#000 64%)}
+.sg-quem-text{position:relative;width:52%}
+.sg-quem-inner{position:relative;max-width:1240px;margin:0 auto;padding:144px 32px}
+@media (max-width: 900px){.sg-quem-photo{position:relative;width:100%;height:440px;-webkit-mask-image:linear-gradient(to bottom,#000 55%,transparent 100%);mask-image:linear-gradient(to bottom,#000 55%,transparent 100%)}.sg-quem-text{width:100%}.sg-quem-inner{padding:8px 24px 96px}}
+.sg-header{position:sticky;top:0;z-index:10}
+@media (max-width: 900px){.sg-nav{display:none !important}.sg-header > div{padding:10px 20px !important}.sg-header a[href="#topo"] > span:first-child{font-size:21px !important}.sg-tagline{display:none !important}section > div{padding-top:72px !important;padding-bottom:72px !important;padding-left:20px !important;padding-right:20px !important}section h2{font-size:34px !important}#circulo > div{gap:48px !important}}
+.sg-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.sg-field{width:100%;box-sizing:border-box;min-height:56px;padding:0 16px;border:1px solid #CFCAC0;background:#FFFFFF;color:#0C141F}
+.sg-field::placeholder{color:#8A93A0}
+.sg-field option{color:#0C141F}
